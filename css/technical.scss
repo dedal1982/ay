@@ -1,0 +1,25 @@
+.techinacal {
+    padding-top: 43px;
+    padding-bottom: 80px;
+    .info {
+        padding-top: 54px;
+
+        p {
+            color: rgba(0, 0, 0, 0.80);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+
+        .info__subtitle {
+            display: block;
+            color: rgba(0, 0, 0, 0.80);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%;
+            margin: 30px 0;
+        }
+    }
+}

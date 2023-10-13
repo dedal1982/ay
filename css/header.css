@@ -1,0 +1,55 @@
+.burger {
+  max-width: 22px;
+  height: 14px;
+  margin-right: 24px;
+}
+
+.header {
+  padding-top: 32px;
+  background-color: #fff;
+}
+
+.header__mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__inner .address {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__inner .address div {
+  display: flex;
+  flex-direction: column;
+}
+.header__inner .address div span {
+  color: #1B3544;
+  font-size: 18px;
+}
+.header__inner .address div span:nth-child(1) {
+  font-weight: 500;
+}
+.header__inner .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header__inner .links a:nth-child(1) {
+  font-weight: 600;
+  color: #1B3544;
+  font-size: 24px;
+}
+.header__inner .links a:nth-child(2) {
+  font-size: 14px;
+  color: #D12455;
+  font-weight: 500;
+}/*# sourceMappingURL=header.css.map */

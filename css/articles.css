@@ -1,0 +1,107 @@
+.for-car-wrapper {
+  padding-top: 100px;
+}
+.for-car-wrapper h1 {
+  color: #1B3544;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.28px;
+  white-space: nowrap;
+  margin-bottom: 64px;
+}
+.for-car-wrapper h1 span {
+  display: inline-block;
+  color: #fff;
+  background-color: #D12455;
+  padding: 5px;
+  border-radius: 24px;
+}
+.for-car-wrapper .categories-button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.for-car-wrapper .categories-button a {
+  display: block;
+  border-radius: 100px;
+  border: 1px solid rgba(27, 53, 68, 0.2);
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #1B3544;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.for-car-wrapper .categories-button .active {
+  background-color: #D12455 !important;
+  color: #fff;
+  border-color: #D12455 !important;
+}
+.for-car-wrapper .post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin-bottom: 80px;
+}
+.for-car-wrapper .post-grid .post {
+  border-radius: 24px;
+  position: relative;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.07);
+}
+.for-car-wrapper .post-grid .post .tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px 20px;
+  border-radius: 100px;
+  border: 1px solid rgba(27, 53, 68, 0.5);
+  color: #1B3544;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.for-car-wrapper .post-grid .post .text {
+  padding: 24px;
+}
+.for-car-wrapper .post-grid .post .text span {
+  width: 90%;
+  color: #1B3544;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.for-car-wrapper .post-grid .post .text .date {
+  margin-top: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.for-car-wrapper .button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.for-car-wrapper .button a {
+  display: inline-block;
+  padding: 16px 32px;
+  color: #1B3544;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: 1px solid #1B3544;
+}/*# sourceMappingURL=articles.css.map */
