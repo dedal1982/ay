@@ -25,7 +25,7 @@ var swiper2 = new Swiper(".team__slider", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 1.1,
+      slidesPerView: 1,
       spaceBetween: 10,
     },
     769: {
@@ -51,10 +51,10 @@ var swiper4 = new Swiper(".situation__slider", {
     prevEl: ".swiper-button-prev",
   },
   320: {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 10,
   },
-  768: {
+  767: {
     slidesPerView: 3.2,
     spaceBetween: 10,
   },
@@ -66,7 +66,11 @@ var swiper5 = new Swiper(".lawyer__slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  769: {
+  320: {
+    slidesPerView: 1,
+    spaceBetween: 10,
+  },
+  500: {
     slidesPerView: 1,
     spaceBetween: 10,
   },

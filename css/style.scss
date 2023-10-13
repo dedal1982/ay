@@ -2562,12 +2562,63 @@ p {
     font-size: 17px;
   }
   .situation .situation-title__block .situation-title {
-    font-size: 36px;
+    font-size: 30px;
   }
   .situation .situation-title__block .text {
     font-size: 15px;
   }
   .situation .situation-title__block .line {
     display: none;
+  }
+  .lawyer__block .lawyer__block-title .navigation-buttons {
+    right: 3%;
+  }
+  .lawyer__block .lawyer__block-title .text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .situation .situation-title__block .text {
+    display: none;
+  }
+  .lawyer__block .lawyer__block-title .text h2 {
+    font-size: 29px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .lawyer__block .lawyer__block-title .navigation-buttons {
+    top: 85px;
+  }
+  .lawyer__block .lawyer__block-slider .lawyer__slider {
+    margin-top: 20px;
+  }
+  .lawyer__block .lawyer__block-slider .lawyer__slider .lawyer-slide .text {
+    font-size: 15px;
+  }
+  .lawyer__block
+    .lawyer__block-slider
+    .lawyer__slider
+    .lawyer-slide
+    .solution-wrapper {
+    flex-direction: column;
+  }
+  .team__block .red-button a {
+    margin-top: 20px;
+  }
+  .lawyer__block {
+    margin-bottom: 55px;
+  }
+  .situation__wrapper {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .services .services__block-red {
+    width: 100%;
+    margin-left: 0;
+  }
+  .services .white-bg {
+    margin: 0 auto;
   }
 }
