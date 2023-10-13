@@ -2448,4 +2448,21 @@ p {
     max-width: 100%;
     text-align: center;
   }
+  .contact-us::before {
+    display: none;
+  }
+  .contacts__block .contact-us .content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact-us .content .button__wrapper {
+    flex-direction: column;
+  }
+  .contacts__block .title-with-smile .title {
+    font-size: 34px;
+  }
+  .contacts__block-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
