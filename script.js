@@ -99,13 +99,21 @@ var swiper6 = new Swiper(".services__slider-1", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    375: {
-      slidesPerView: 1.2,
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    376: {
+      slidesPerView: 1,
       spaceBetween: 10,
     },
     769: {
-      slidesPerView: 2.5,
+      slidesPerView: 2,
       spaceBetween: 10,
+    },
+    770: {
+      slidesPerView: 2.5,
+      spaceBetween: 32,
     },
   },
 });
@@ -118,13 +126,10 @@ var swiper7 = new Swiper(".services__slider-2", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 1.2,
+      slidesPerView: 1,
       spaceBetween: 10,
     },
-    376: {
-      slidesPerView: 2.3,
-      spaceBetween: 10,
-    },
+
     769: {
       slidesPerView: 2.5,
       spaceBetween: 10,
