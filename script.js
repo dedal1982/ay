@@ -5,6 +5,16 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    375: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+    },
+    769: {
+      slidesPerView: 2.7,
+      spaceBetween: 10,
+    },
+  },
 });
 var swiper2 = new Swiper(".team__slider", {
   slidesPerView: 2.5,
@@ -14,8 +24,12 @@ var swiper2 = new Swiper(".team__slider", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    375: {
-      slidesPerView: 1,
+    320: {
+      slidesPerView: 1.1,
+      spaceBetween: 10,
+    },
+    769: {
+      slidesPerView: 2.5,
       spaceBetween: 10,
     },
   },
@@ -28,8 +42,8 @@ var swiper3 = new Swiper(".feedback__slider", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    375: {
-      slidesPerView: 1.1,
+    769: {
+      slidesPerView: 1.2,
       spaceBetween: 10,
     },
   },

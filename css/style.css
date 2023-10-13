@@ -2675,12 +2675,15 @@ p {
   .team__block .feedback .feedback__title {
     text-align: center;
     gap: 20px;
+    align-items: center;
   }
   .team__block .feedback .feedback__title h2 {
     font-size: 30px;
   }
   .team__block .feedback .feedback__title span {
-    font-size: 14px;
+    font-size: 22px;
+    max-width: 500px;
+    width: 100%;
   }
   .team__block .feedback {
     flex-direction: column;
@@ -2699,7 +2702,7 @@ p {
     display: none;
   }
   .team__block .team__title h2 {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
   }
   .team__block .feedback-slide {
@@ -2713,6 +2716,76 @@ p {
     right: 2% !important;
   }
   .team__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
-    right: 2% !important;
+    right: 3% !important;
+  }
+  .team__block .feedback .feedback__slider__wrapper .feedback__slider {
+    margin-top: 50px;
+  }
+  .team__block .team__slider {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .top__block__inner-content .text p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .top__block .title {
+    font-size: 23px;
+    line-height: 113%;
+  }
+  .consultation__button a .button-text {
+    font-size: 8px;
+  }
+  .consultation__button a {
+    padding: 4px 12px;
+    gap: 5px;
+  }
+  .top__block__inner-content .button__wrapper {
+    gap: 5px;
+    align-items: center;
+    top: 257px;
+    left: 5px;
+  }
+  .top__block__inner-content .button__wrapper .text-next-to-btn {
+    max-width: 150px;
+    color: #000;
+    font-size: 9px;
+  }
+  .grid-item h2 {
+    font-size: 22px;
+  }
+  .grid-item h3 {
+    font-size: 22px;
+  }
+  .grid-item p {
+    font-size: 18px;
+  }
+  .about-us-grid .grid-item:nth-child(4),
+  .about-us-grid .grid-item:nth-child(5) {
+    flex-direction: column;
+  }
+  .about-us .title--wrapper {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  .title--wrapper h2 {
+    font-size: 37px;
+    text-align: center;
+  }
+  .white-background.all-radius {
+    border-radius: 10px;
+  }
+  .team__block .team-slide {
+    flex-direction: column;
+    min-width: 335px;
+    align-items: center;
+  }
+  .team__block .feedback .feedback__slider__wrapper .feedback__slider {
+    max-width: 350px;
+  }
+  .team__block .team__slider .navigation-buttons {
+    right: 3% !important;
   }
 }/*# sourceMappingURL=style.css.map */
