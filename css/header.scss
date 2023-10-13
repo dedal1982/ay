@@ -1,68 +1,68 @@
-$dark: #1B3544;
-$red: #D12455;
-$blue: #2355D0;
+$dark: #1b3544;
+$red: #d12455;
+$blue: #2355d0;
 
 .burger {
-    max-width: 22px;
-    height: 14px;
-    margin-right: 24px;
+  max-width: 22px;
+  height: 14px;
+  margin-right: 24px;
 }
 
 .header {
-    padding-top: 32px;
-    background-color: #fff;
+  padding-top: 32px;
+  background-color: #fff;
 }
 
-.header__mobile{
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
+.header__mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
 }
 
 .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .address {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 
-    .address {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    div {
+      display: flex;
+      flex-direction: column;
 
-        div {
-            display: flex;
-            flex-direction: column;
+      span {
+        color: $dark;
+        font-size: 18px;
 
-            span {
-                color: $dark;
-                font-size: 18px;
-
-                &:nth-child(1) {
-                    font-weight: 500;
-                }
-            }
+        &:nth-child(1) {
+          font-weight: 500;
         }
+      }
     }
+  }
 
-    .links {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
-        a {
-            &:nth-child(1) {
-                font-weight: 600;
-                color: $dark;
-                font-size: 24px;
-            }
+    a {
+      &:nth-child(1) {
+        font-weight: 600;
+        color: $dark;
+        font-size: 24px;
+      }
 
-            &:nth-child(2) {
-                font-size: 14px;
-                color: $red;
-                font-weight: 500;
-            }
-        }
+      &:nth-child(2) {
+        font-size: 14px;
+        color: $red;
+        font-weight: 500;
+      }
     }
+  }
 }

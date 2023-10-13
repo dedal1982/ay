@@ -13,7 +13,7 @@
   display: none;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .header__inner {
@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 .header__inner .address div span {
-  color: #1B3544;
+  color: #1b3544;
   font-size: 18px;
 }
 .header__inner .address div span:nth-child(1) {
@@ -45,11 +45,11 @@
 }
 .header__inner .links a:nth-child(1) {
   font-weight: 600;
-  color: #1B3544;
+  color: #1b3544;
   font-size: 24px;
 }
 .header__inner .links a:nth-child(2) {
   font-size: 14px;
-  color: #D12455;
+  color: #d12455;
   font-weight: 500;
 }/*# sourceMappingURL=header.css.map */

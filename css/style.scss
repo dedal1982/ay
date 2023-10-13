@@ -2317,6 +2317,7 @@ p {
   }
   .contact-us::before {
     right: -70px;
+    bottom: -63px;
   }
   .articel-page .list {
     text-align: left;
@@ -2325,11 +2326,37 @@ p {
     font-size: 11px;
   }
   .contact-us .content p {
-    max-width: 351px;
+    max-width: 309px;
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
   }
   .articel-page .posts-block .posts-flex .post .text span {
     font-size: 14px;
   }
+}
+.articel-page .contact-us {
+  overflow: hidden;
+}
+.articel-page .posts-block .posts-flex .post .tag {
+  padding: 8px 10px;
+  font-size: 9px;
+}
+.articel-page .red-block .content p {
+  font-size: 16px;
+}
+.articel-page .red-block .content:nth-child(3) p {
+  font-size: 21px;
+}
+.articel-page .red-block {
+  align-items: end;
+}
+.articel-page p {
+  font-size: 21px;
+}
+.articel-page .consultation__button a {
+  padding: 12px 22px;
+  gap: 8px;
+}
+.articel-page .consultation__button a .button-text {
+  font-size: 10px;
 }
