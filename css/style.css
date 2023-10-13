@@ -2547,14 +2547,95 @@ p {
     display: none;
   }
 }
-@media (max-width: 768px) {
-  .techinacal .title {
+@media (max-width: 1200px) {
+  .title {
     font-size: 39px;
     text-align: center;
   }
 }
-@media (max-width: 900px) {
-  .techinacal .info {
+@media (max-width: 1200px) {
+  .techinacal.info {
     padding-top: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .about-us {
+    padding-top: 35px;
+  }
+  .about-us .about-us-bunner {
+    margin-bottom: 10%;
+  }
+  .about-us .stats {
+    margin-top: 10%;
+  }
+  .about-us .subtitle h4 {
+    font-size: 25px;
+  }
+  .about-us .stats .lg-text {
+    font-size: 110px;
+  }
+  .about-us .stats .sm-text {
+    font-size: 17px;
+    margin: 0 auto;
+  }
+  .about-us .lg-text {
+    text-align: center;
+  }
+  .about-us .subtitle {
+    justify-content: space-around;
+  }
+  .about-us .staff {
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+  .about-us .our-work-days {
+    margin-top: 10%;
+  }
+  .about-us .staff .staff-person .name {
+    font-size: 20px;
+  }
+  .about-us .staff .staff-person .image {
+    margin-bottom: 5px;
+  }
+  .about-us .staff .staff-person {
+    flex-basis: 30%;
+  }
+}
+@media (max-width: 676px) {
+  .about-us .stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about-us .title span {
+    font-size: 30px;
+  }
+  .about-us .sub-text {
+    text-align: left;
+  }
+  .about-us span {
+    display: none;
+  }
+  .about-us .subtitle {
+    justify-content: inherit;
+  }
+  .about-us .subtitle h4 {
+    flex-basis: 100%;
+    font-size: 18px;
+  }
+  .about-us .stats .lg-text {
+    font-size: 52px;
+  }
+  .about-us .stats .sm-text {
+    width: 100%;
+    text-align: center;
+  }
+  .about-us .staff .staff-person {
+    flex-basis: 46%;
+  }
+  .about-us .staff {
+    gap: 10px;
+  }
+  .about-us {
+    padding-bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
