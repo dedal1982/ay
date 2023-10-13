@@ -2816,43 +2816,36 @@ p {
   .articel-page .posts-block .posts-flex .post .text span {
     font-size: 14px;
   }
+  .articel-page .posts-block .posts-flex .post .tag {
+    padding: 8px 10px;
+    font-size: 9px;
+  }
+  .articel-page .red-block .content p {
+    font-size: 16px;
+  }
+  .articel-page .red-block .content:nth-child(3) p {
+    font-size: 21px;
+  }
+  .articel-page .red-block {
+    align-items: end;
+  }
+  .articel-page p {
+    font-size: 21px;
+  }
+  .articel-page .consultation__button a {
+    padding: 12px 22px;
+    gap: 8px;
+  }
+  .articel-page .consultation__button a .button-text {
+    font-size: 10px;
+  }
+  .contact-us {
+    overflow: hidden;
+  }
 }
-.articel-page .posts-block .posts-flex .post .tag {
-  padding: 8px 10px;
-  font-size: 9px;
-}
-
-.articel-page .red-block .content p {
-  font-size: 16px;
-}
-
-.articel-page .red-block .content:nth-child(3) p {
-  font-size: 21px;
-}
-
-.articel-page .red-block {
-  align-items: end;
-}
-
-.articel-page p {
-  font-size: 21px;
-}
-
-.articel-page .consultation__button a {
-  padding: 12px 22px;
-  gap: 8px;
-}
-
-.articel-page .consultation__button a .button-text {
-  font-size: 10px;
-}
-
 @media (max-width: 767px) {
   .articel-page .red-block {
     flex-direction: column;
-  }
-  .articel-page .contact-us {
-    overflow: hidden;
   }
   .articel-page .content {
     max-width: 100%;
@@ -2886,5 +2879,53 @@ p {
   .articel-page .title {
     font-size: 30px;
     margin-top: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .for-car-wrapper h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .for-car-wrapper .post-grid .post .tag {
+    padding: 7px 8px;
+    font-size: 10px;
+  }
+  .consultation__button a {
+    padding: 12px 22px;
+    gap: 8px;
+  }
+  .for-car-wrapper .post-grid .post .text span {
+    font-size: 14px;
+  }
+  .for-car-wrapper .consultation__button a {
+    padding: 12px 22px;
+    gap: 8px;
+  }
+  .for-car-wrapper .consultation__button a .button-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .for-car-wrapper h1 {
+    font-size: 30px;
+  }
+  .for-car-wrapper .post-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .for-car-wrapper .post-grid .post .tag {
+    font-size: 13px;
+    padding: 12px 20px;
+  }
+  .for-car-wrapper .contact-us::before {
+    display: none;
+  }
+  .for-car-wrapper .contact-us .content .button__wrapper {
+    flex-direction: column;
+  }
+  .for-car-wrapper .contact-us .content {
+    max-width: 100%;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
