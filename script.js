@@ -66,8 +66,8 @@ var swiper4 = new Swiper(".situation__slider", {
   },
 });
 var swiper5 = new Swiper(".lawyer__slider", {
-  slidesPerView: 1.2,
-  spaceBetween: 32,
+  slidesPerView: 1,
+  spaceBetween: 20,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
