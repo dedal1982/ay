@@ -2317,13 +2317,14 @@ p {
   }
   .contact-us::before {
     right: -70px;
-    bottom: -63px;
+    bottom: -77px;
   }
   .articel-page .list {
     text-align: left;
   }
   .contact-us .content .button__wrapper .text-next-to-btn {
     font-size: 11px;
+    z-index: 2;
   }
   .contact-us .content p {
     max-width: 309px;
@@ -2334,9 +2335,7 @@ p {
     font-size: 14px;
   }
 }
-.articel-page .contact-us {
-  overflow: hidden;
-}
+
 .articel-page .posts-block .posts-flex .post .tag {
   padding: 8px 10px;
   font-size: 9px;
@@ -2359,4 +2358,45 @@ p {
 }
 .articel-page .consultation__button a .button-text {
   font-size: 10px;
+}
+@media (max-width: 767px) {
+  .articel-page .red-block {
+    flex-direction: column;
+  }
+  .articel-page .contact-us {
+    overflow: hidden;
+  }
+  .articel-page .content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .articel-page .contact-us::before {
+    display: none;
+  }
+  .articel-page .contact-us .content .button__wrapper {
+    flex-direction: column;
+  }
+  .articel-page .posts-block .posts-flex {
+    flex-direction: column;
+  }
+  .articel-page .posts-block .posts-flex .post .tag {
+    font-size: 13px;
+    padding: 12px 20px;
+  }
+  .white-background.bottom-radius {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .articel-page .posts-block h2 {
+    font-size: 33px;
+  }
+  .articel-page .posts-block {
+    margin-top: 60px;
+  }
+  .articel-page .content-block h2 {
+    font-size: 30px;
+  }
+  .articel-page .title {
+    font-size: 30px;
+    margin-top: 40px;
+  }
 }
