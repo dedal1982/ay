@@ -41,12 +41,6 @@ var swiper3 = new Swiper(".feedback__slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  breakpoints: {
-    769: {
-      slidesPerView: 1.2,
-      spaceBetween: 10,
-    },
-  },
 });
 
 var swiper4 = new Swiper(".situation__slider", {
@@ -56,6 +50,14 @@ var swiper4 = new Swiper(".situation__slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  320: {
+    slidesPerView: 2,
+    spaceBetween: 10,
+  },
+  768: {
+    slidesPerView: 3.2,
+    spaceBetween: 10,
+  },
 });
 var swiper5 = new Swiper(".lawyer__slider", {
   slidesPerView: 1.2,
@@ -63,6 +65,10 @@ var swiper5 = new Swiper(".lawyer__slider", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  769: {
+    slidesPerView: 1,
+    spaceBetween: 10,
   },
 });
 var swiper6 = new Swiper(".services__slider-1", {
@@ -72,6 +78,16 @@ var swiper6 = new Swiper(".services__slider-1", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    375: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+    },
+    769: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
+  },
 });
 var swiper7 = new Swiper(".services__slider-2", {
   slidesPerView: 2.5,
@@ -79,5 +95,19 @@ var swiper7 = new Swiper(".services__slider-2", {
   navigation: {
     nextEl: ".swiper-button-next2",
     prevEl: ".swiper-button-prev2",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+    },
+    376: {
+      slidesPerView: 2.3,
+      spaceBetween: 10,
+    },
+    769: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
   },
 });

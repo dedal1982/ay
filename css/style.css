@@ -2945,4 +2945,90 @@ p {
     display: flex;
     flex-direction: column;
   }
+}
+@media (max-width: 1200px) {
+  .services .services__block .feedback {
+    flex-direction: column;
+  }
+  .services .services__block .feedback .feedback__title h2 {
+    font-size: 30px;
+  }
+  .services .services__block .feedback .feedback__title span {
+    font-size: 22px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .services .services__block .feedback .feedback__title {
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider {
+    margin-top: 50px;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
+    right: 3% !important;
+  }
+  .site-map .site-map-wrapper .site-map-content .link:nth-child(6)::after {
+    display: none;
+  }
+  .site-map-wrapper {
+    flex-direction: column;
+  }
+  .site-map .consultation__button a .button-text {
+    font-size: 12px;
+  }
+  .site-map .consultation__button {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .site-map .privacy {
+    gap: 3px;
+    right: 15%;
+    bottom: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .site-map .site-map-wrapper .site-map-contact-us .content p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .site-map .consultation__button {
+    margin-bottom: 50px;
+  }
+  .site-map .privacy {
+    bottom: 120px;
+    right: 24%;
+    align-items: center;
+  }
+  .site-map .privacy a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .lawyer__block .lawyer__block-slider .lawyer__slider {
+    width: 100% !important;
+  }
+  .lawyer__block .lawyer__block-slider .lawyer__slider .lawyer-slide .text {
+    font-size: 20px;
+  }
+  .lawyer__block .lawyer__block-slider .lawyer__slider .lawyer-slide .solution-wrapper .solution-block p {
+    font-size: 14px;
+  }
+  .situation .situation__slider__wrapper .situation__slider {
+    width: 100%;
+  }
+  .situation .situation__slider__wrapper .situation__slider .situation-slide .text {
+    font-size: 17px;
+  }
+  .situation .situation-title__block .situation-title {
+    font-size: 36px;
+  }
+  .situation .situation-title__block .text {
+    font-size: 15px;
+  }
+  .situation .situation-title__block .line {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
