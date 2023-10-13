@@ -2638,4 +2638,9 @@ p {
   .about-us {
     padding-bottom: 40px;
   }
+  .about-us .our-work-days .grid__block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
