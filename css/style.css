@@ -2405,10 +2405,6 @@ p {
     padding: 20px 0;
   }
 }
-* {
-  border: 1px solid red;
-}
-
 @media (max-width: 1090px) {
   .footer {
     padding-top: 60px;
@@ -2787,5 +2783,35 @@ p {
   }
   .team__block .team__slider .navigation-buttons {
     right: 3% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .articel-page .content-block h2 {
+    font-size: 40px;
+  }
+  .articel-page .content-block {
+    width: 100%;
+    margin: 0 auto 50px;
+    text-align: center;
+  }
+  .articel-page .content-block .text {
+    text-align: left;
+  }
+  .contact-us::before {
+    right: -70px;
+  }
+  .articel-page .list {
+    text-align: left;
+  }
+  .contact-us .content .button__wrapper .text-next-to-btn {
+    font-size: 11px;
+  }
+  .contact-us .content p {
+    max-width: 351px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .articel-page .posts-block .posts-flex .post .text span {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
