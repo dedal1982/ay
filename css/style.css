@@ -3199,17 +3199,50 @@ p {
   }
 }
 @media (max-width: 767px) {
+  .lock {
+    overflow: hidden;
+  }
   .burger__menu {
     width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 10;
+    height: 0;
+    background: #000;
+    transition: all 1s ease-in-out;
   }
-  .burger__top {
+  .burger__menu_open {
+    height: 100vh;
+  }
+  .burger__tabs-item {
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
   }
-  .burger__top-logo {
+  .burger__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #1b3544;
+  }
+  .burger__title.active {
+    color: #d12455;
+  }
+  .burger__links-item {
+    display: none;
+  }
+  .burger__links-item.active {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+  .burger__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b3544;
+    text-align: center !important;
   }
 }/*# sourceMappingURL=style.css.map */

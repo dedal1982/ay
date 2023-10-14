@@ -1,3 +1,42 @@
+const burgerBtn = document.querySelector(".burbtn");
+const burgerMenu = document.querySelector(".burger__menu");
+const lockBody = document.querySelector(".body-page");
+burgerBtn.addEventListener("click", () => {
+  console.log(11111);
+  burgerMenu.classList.toggle("burger__menu_open");
+  lockBody.classList.toggle("lock");
+});
+//функция переключения табов
+const makeCodeUniversal = (
+  tabItemsQuery,
+  formItemsQuery,
+  tabClassName = "active"
+) => {
+  const tabItems = Array.from(document.querySelectorAll(tabItemsQuery));
+  const formItems = Array.from(document.querySelectorAll(formItemsQuery));
+
+  const clearActiveTabs = (element) => {
+    element.find((item) => item.classList.remove(tabClassName));
+  };
+
+  const setActiveTab = (element, index) => {
+    element[index].classList.add(tabClassName);
+  };
+
+  const chekTab = (item, index) => {
+    item.addEventListener("click", () => {
+      clearActiveTabs(tabItems);
+      clearActiveTabs(formItems);
+
+      setActiveTab(tabItems, index);
+      setActiveTab(formItems, index);
+    });
+  };
+  tabItems.forEach(chekTab);
+};
+// /*табы / секция Наши реализованные проекты*/
+makeCodeUniversal(".burger__title", ".burger__links-item");
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2.7,
   spaceBetween: 32,
