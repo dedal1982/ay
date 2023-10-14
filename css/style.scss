@@ -3126,6 +3126,11 @@ p {
   }
 }
 @media (max-width: 1240px) {
+  .about-us .title--wrapper .navigation-buttons {
+    right: 3%;
+    top: 57px;
+    width: 190px;
+  }
   .burger__desctop-link {
     font-size: 16px;
   }
@@ -3238,5 +3243,12 @@ p {
   }
   .esctop-logo-label {
     width: 250px;
+  }
+}
+@media (max-width: 676px) {
+  .about-us .title--wrapper .navigation-buttons {
+    right: 3%;
+    top: 0;
+    width: 137px;
   }
 }
