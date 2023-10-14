@@ -20,9 +20,13 @@ for (link of linkMobileMenu) {
 //десктоп бургер
 const burgerDesctop = document.querySelector(".burger__desctop");
 const burgerDescBtn = document.querySelector(".desb");
+const burgerDescBtnClose = document.querySelector(".desctop-logo-img");
 
 burgerDescBtn.addEventListener("click", () => {
-  burgerDesctop.classList.toggle("burger__desctop_open");
+  burgerDesctop.classList.add("burger__desctop_open");
+});
+burgerDescBtnClose.addEventListener("click", () => {
+  burgerDesctop.classList.remove("burger__desctop_open");
 });
 //функция переключения табов
 const makeCodeUniversal = (
