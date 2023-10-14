@@ -6,6 +6,24 @@ burgerBtn.addEventListener("click", () => {
   burgerMenu.classList.toggle("burger__menu_open");
   lockBody.classList.toggle("lock");
 });
+
+//перебор по ссылкам мобильное меню
+const linkMobileMenu = document.querySelectorAll(".burger__link");
+
+for (link of linkMobileMenu) {
+  link.addEventListener("click", function () {
+    burgerMenu.classList.remove("burger__menu_open");
+
+    lockBody.classList.remove("lock");
+  });
+}
+//десктоп бургер
+const burgerDesctop = document.querySelector(".burger__desctop-wrap");
+const burgerDescBtn = document.querySelector(".desb");
+
+burgerDescBtn.addEventListener("click", () => {
+  burgerDesctop.classList.toggle("burger__desctop-wrap_open");
+});
 //функция переключения табов
 const makeCodeUniversal = (
   tabItemsQuery,
