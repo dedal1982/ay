@@ -2936,7 +2936,6 @@ p {
 .burger__desctop {
   height: 0;
   overflow: auto;
-  transition: all 0.2s ease-in-out;
 }
 .burger__desctop_open {
   overflow: auto;
@@ -2947,7 +2946,7 @@ p {
   border-radius: 0px 0px 80px 80px;
   background: #000;
   box-shadow: 0px 15px 35px 0px rgba(114, 126, 133, 0.1);
-  z-index: 20;
+  z-index: 10;
   position: fixed;
   align-items: center;
   top: 78;
