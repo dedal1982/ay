@@ -3181,7 +3181,8 @@ p {
   }
   .services .title__wrapper .navigation-buttons {
     top: -10px;
-    right: -52px !important;
+    right: -73px !important;
+    width: 137px !important;
   }
   .services .services__block .feedback .feedback__slider__wrapper .feedback__slider .feedback-slide {
     max-height: 370px !important;
@@ -3195,5 +3196,15 @@ p {
   }
   .situation-text {
     text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .burger__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .burger__top {
+    display: flex;
   }
 }/*# sourceMappingURL=style.css.map */
