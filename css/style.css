@@ -3044,7 +3044,7 @@ p {
     padding-top: 50px;
   }
   .services .services__block .grid .grid-item span {
-    font-size: 19px;
+    font-size: 21px;
   }
   .services .services__block .feedback .feedback__title h2::after {
     display: none;
@@ -3206,5 +3206,10 @@ p {
   }
   .burger__top {
     display: flex;
+    justify-content: space-between;
+  }
+  .burger__top-logo {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
