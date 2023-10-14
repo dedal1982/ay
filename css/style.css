@@ -3252,7 +3252,7 @@ p {
     text-align: center !important;
   }
   .burger__line {
-    background: linear-gradient(90deg, rgba(27, 53, 68, 0.5) 0%, rgba(27, 53, 68, 0) 0%, rgba(27, 53, 68, 0.5) 51.63%, rgba(27, 53, 68, 0) 100%);
+    color: linear-gradient(90deg, rgba(27, 53, 68, 0.5) 0%, rgba(27, 53, 68, 0) 0%, rgba(27, 53, 68, 0.5) 51.63%, rgba(27, 53, 68, 0) 100%);
     margin-top: 24px;
     margin-bottom: 24px;
     width: 320px;
