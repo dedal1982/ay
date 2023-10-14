@@ -13,7 +13,6 @@ const linkMobileMenu = document.querySelectorAll(".burger__link");
 for (link of linkMobileMenu) {
   link.addEventListener("click", function () {
     burgerMenu.classList.remove("burger__menu_open");
-
     lockBody.classList.remove("lock");
   });
 }
@@ -24,9 +23,11 @@ const burgerDescBtnClose = document.querySelector(".desctop-logo-img");
 
 burgerDescBtn.addEventListener("click", () => {
   burgerDesctop.classList.add("burger__desctop_open");
+  lockBody.classList.add("lock");
 });
 burgerDescBtnClose.addEventListener("click", () => {
   burgerDesctop.classList.remove("burger__desctop_open");
+  lockBody.classList.remove("lock");
 });
 //функция переключения табов
 const makeCodeUniversal = (
