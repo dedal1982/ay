@@ -2289,6 +2289,7 @@ p {
   }
   .white-background.all-radius {
     border-radius: 10px;
+    margin-top: 50px;
   }
   .team__block .team-slide {
     flex-direction: column;
@@ -2578,6 +2579,19 @@ p {
     font-size: 40px;
     margin-bottom: 20px;
   }
+  .blue-background {
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+  .services .services__block .grid .grid-item span {
+    font-size: 19px;
+  }
+  .services .services__block .feedback .feedback__title h2::after {
+    display: none;
+  }
+  .white-background.all-radius {
+    border-radius: 24px;
+  }
 }
 @media (max-width: 767px) {
   .situation .situation-title__block .text {
@@ -2645,6 +2659,7 @@ p {
   }
   .services .services__block {
     padding-left: 0;
+    border-radius: 15px !important;
   }
   .services .services__block-red .block-red__inner {
     padding-left: 80px;
@@ -2665,6 +2680,18 @@ p {
     img {
     object-fit: contain;
   }
+  .services .services__block-red .block-red__inner {
+    padding-left: 0 !important;
+  }
+  .services .services__block {
+    padding: 40px 40px 40px 40px !important;
+  }
+  .services .title__wrapper .navigation-buttons {
+    width: 173px !important;
+  }
+  .situation-text {
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   .services .services__block .flex {
@@ -2674,9 +2701,9 @@ p {
     display: flex !important;
     flex-direction: column;
   }
-  // .team__block .feedback .feedback__slider__wrapper .feedback__slider {
-  //   max-width: 300px !important;
-  // }
+  .services .title__wrapper {
+    flex-direction: column;
+  }
   .team__block
     .feedback
     .feedback__slider__wrapper
@@ -2694,7 +2721,7 @@ p {
     padding-left: 0 !important;
   }
   .services .services__block-red {
-    padding: 24px;
+    margin-bottom: 30px;
   }
   .services .services__block-red .block-red__inner {
     padding-left: 0;
@@ -2704,13 +2731,15 @@ p {
     padding: 24px 24px 24px 24px !important;
   }
   .services .services__block h2 {
-    font-size: 27px;
+    font-size: 30px;
+    text-align: center;
   }
   .services .services__block p {
     font-size: 16px;
   }
   .services .title__wrapper .navigation-buttons {
-    top: 20px;
+    top: -10px;
+    right: -52px !important;
   }
   .services
     .services__block
@@ -2727,5 +2756,13 @@ p {
     .feedback__slider
     .navigation-buttons {
     right: 5% !important;
+  }
+  .services .services__block {
+    padding: 24px 24px 24px 24px !important;
+    margin-bottom: 30px;
+  }
+
+  .situation-text {
+    text-align: left;
   }
 }
