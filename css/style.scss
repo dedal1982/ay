@@ -25,7 +25,9 @@ body {
   background-color: #2355d0;
   overflow-x: hidden !important;
 }
-
+.burger__menu {
+  display: none;
+}
 img {
   height: 100%;
   width: 100%;
@@ -2917,5 +2919,17 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 130%; /* 15.6px */
+  }
+  .burger__menu-footer {
+    color: var(--Black, #1b3544);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 16.8px */
+    max-width: 328px;
+    width: 100%;
+    margin: auto;
   }
 }
