@@ -2779,7 +2779,7 @@ p {
     align-items: center;
   }
   .team__block .feedback .feedback__slider__wrapper .feedback__slider {
-    max-width: 100% !important;
+    max-width: 300px !important;
   }
   .team__block .team__slider .navigation-buttons {
     right: 3% !important;
@@ -3069,6 +3069,9 @@ p {
   .situation__wrapper {
     width: 100% !important;
   }
+  .contacts__block .contacts__block-grid {
+    display: flex;
+  }
 }
 @media (max-width: 1200px) {
   .services .services__block-red {
@@ -3118,10 +3121,40 @@ p {
     display: flex !important;
     flex-direction: column;
   }
-  .team__block .feedback .feedback__slider__wrapper .feedback__slider {
-    max-width: 300px !important;
-  }
   .team__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
     right: 26% !important;
+  }
+  .all-specters h1 {
+    font-size: 40px;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper {
+    max-width: 300px !important;
+  }
+  .services__block .white-bg {
+    padding-left: 0 !important;
+  }
+  .services .services__block-red {
+    padding: 24px;
+  }
+  .services .services__block-red .block-red__inner {
+    padding-left: 0;
+  }
+  .services .white-bg {
+    padding: 24px 24px 24px 24px !important;
+  }
+  .services .services__block h2 {
+    font-size: 27px;
+  }
+  .services .services__block p {
+    font-size: 16px;
+  }
+  .services .title__wrapper .navigation-buttons {
+    top: 20px;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider .feedback-slide {
+    max-height: 370px !important;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
+    right: 5% !important;
   }
 }/*# sourceMappingURL=style.css.map */
