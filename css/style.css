@@ -3208,17 +3208,19 @@ p {
     flex-direction: column;
     z-index: 10;
     height: 0;
-    background: #000;
+    background: #fff;
     transition: all 1s ease-in-out;
     position: fixed;
     top: 77px;
     left: 0;
+    overflow: auto;
   }
   .burger__menu_open {
     height: 100vh;
   }
   .burger__tabs-item {
     display: flex;
+    margin: 48px 26px 72px;
     gap: 32px;
   }
   .burger__title {
@@ -3240,6 +3242,7 @@ p {
     justify-content: center;
     max-width: 320px;
     width: 100%;
+    margin: 0 auto;
   }
   .burger__link {
     font-weight: 400;
@@ -3247,5 +3250,12 @@ p {
     line-height: 150%;
     color: #1b3544;
     text-align: center !important;
+  }
+  .burger__line {
+    background: linear-gradient(90deg, rgba(27, 53, 68, 0.5) 0%, rgba(27, 53, 68, 0) 0%, rgba(27, 53, 68, 0.5) 51.63%, rgba(27, 53, 68, 0) 100%);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 320px;
+    height: 0.5px;
   }
 }/*# sourceMappingURL=style.css.map */
