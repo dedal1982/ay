@@ -18,11 +18,11 @@ for (link of linkMobileMenu) {
   });
 }
 //десктоп бургер
-const burgerDesctop = document.querySelector(".burger__desctop-wrap");
+const burgerDesctop = document.querySelector(".burger__desctop");
 const burgerDescBtn = document.querySelector(".desb");
 
 burgerDescBtn.addEventListener("click", () => {
-  burgerDesctop.classList.toggle("burger__desctop-wrap_open");
+  burgerDesctop.classList.toggle("burger__desctop_open");
 });
 //функция переключения табов
 const makeCodeUniversal = (
