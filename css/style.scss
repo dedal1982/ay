@@ -2778,7 +2778,7 @@ p {
     z-index: 10;
     height: 0;
     background: #fff;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     position: fixed;
     top: 77px;
     left: 0;
@@ -2805,6 +2805,9 @@ p {
   .burger__links-item {
     display: none;
   }
+  .burger__links-item:nth-child(4) {
+    align-items: flex-start !important;
+  }
   .burger__links-item.active {
     display: flex;
     flex-direction: column;
@@ -2814,11 +2817,15 @@ p {
     width: 100%;
     margin: 0 auto;
   }
+
   .burger__link {
-    font-weight: 400;
+    color: var(--Black, #1b3544);
+    font-family: Gilroy;
     font-size: 16px;
-    line-height: 150%;
-    color: #1b3544;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.352px;
     text-align: center !important;
   }
   .burger__line {
@@ -2833,5 +2840,82 @@ p {
     margin-bottom: 24px;
     width: 320px;
     height: 0.5px;
+  }
+  .burger__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 44px;
+  }
+  .burger__contact-title {
+    color: var(--Black, #1b3544);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }
+  .burger__contact-subtitle {
+    color: var(--Black, #1b3544);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.9px;
+  }
+  .burger__contact-desc {
+    color: var(--Black, #1b3544);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .burger__phone {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .burger__phone-num {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .burger__num {
+    color: var(--Black, #1b3544);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .burger__phone-img {
+    width: 24px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  .burger__phone-icons {
+    display: flex;
+    gap: 4px;
+    align-self: flex-end;
+  }
+  .burger__text {
+    color: var(--Black, #1b3544);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 15.6px */
   }
 }
