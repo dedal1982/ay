@@ -107,8 +107,8 @@ var swiper6 = new Swiper(".services__slider-1", {
       slidesPerView: 1,
       spaceBetween: 10,
     },
-    769: {
-      slidesPerView: 2,
+    767: {
+      slidesPerView: 1.5,
       spaceBetween: 10,
     },
     770: {

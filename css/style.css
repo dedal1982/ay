@@ -2709,7 +2709,7 @@ p {
        object-fit: contain;
   }
   .team__block .team__slider .navigation-buttons {
-    right: 2% !important;
+    right: 26% !important;
   }
   .team__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
     right: 3% !important;
@@ -2779,7 +2779,7 @@ p {
     align-items: center;
   }
   .team__block .feedback .feedback__slider__wrapper .feedback__slider {
-    max-width: 350px;
+    max-width: 100% !important;
   }
   .team__block .team__slider .navigation-buttons {
     right: 3% !important;
@@ -3075,7 +3075,53 @@ p {
     width: 100%;
     margin-left: 0;
   }
+  .all-specters h1::before {
+    display: none !important;
+  }
   .services .white-bg {
-    margin: 0 auto;
+    padding-left: 80px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .services .services__slider-1 {
+    width: 100% !important;
+  }
+  .services .services__slider-2 {
+    width: 100% !important;
+  }
+  .services .services__block h2 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .services .title__wrapper .navigation-buttons {
+    right: 3% !important;
+  }
+  .services .services__block {
+    padding-left: 0;
+  }
+  .services .services__block-red .block-red__inner {
+    padding-left: 80px;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider {
+    width: 100% !important;
+  }
+  .services .services__block .feedback .feedback__slider__wrapper .feedback__slider .feedback-slide img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .services .services__block .flex {
+    flex-direction: column;
+  }
+  .services .services__block .grid {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .team__block .feedback .feedback__slider__wrapper .feedback__slider {
+    max-width: 300px !important;
+  }
+  .team__block .feedback .feedback__slider__wrapper .feedback__slider .navigation-buttons {
+    right: 26% !important;
   }
 }/*# sourceMappingURL=style.css.map */
