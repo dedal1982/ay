@@ -3771,6 +3771,10 @@ p {
     padding-top: 100px;
   }
   .top__block__inner-content .button__wrapper-main {
+    gap: 5px;
+    align-items: center;
+    top: 656px;
+    left: 5px;
     top: 590px !important;
   }
 }/*# sourceMappingURL=style.css.map */
