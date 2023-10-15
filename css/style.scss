@@ -2173,8 +2173,9 @@ p {
     left: 50px;
   }
   .top__block__inner-image {
-    width: 229px;
-    height: 387px;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
   }
   .team__block .feedback .feedback__title {
     text-align: center;
@@ -2250,6 +2251,10 @@ p {
     font-size: 28px;
     line-height: 110%;
     width: 317px;
+  }
+  .top__block__inner-image {
+    width: 229px;
+    height: 387px;
   }
 
   .consultation__button a .button-text {
@@ -3260,9 +3265,6 @@ p {
   display: none;
 }
 @media (max-width: 767px) {
-  .navigation-buttons {
-    display: none;
-  }
   .top-img-mob {
     display: block;
   }
@@ -3310,5 +3312,11 @@ p {
   .blue-background {
     padding-bottom: 0;
     padding-top: 60px;
+  }
+  .top__block__inner-image {
+    margin-left: 0;
+  }
+  .situation .situation__slider__wrapper .situation__slider {
+    padding-top: 100px;
   }
 }
