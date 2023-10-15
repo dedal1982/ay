@@ -804,6 +804,10 @@
   margin: 0;
 }
 
+.top-img-mob {
+  display: none;
+}
+
 body {
   font-family: Gilroy;
   background-color: #2355d0;
@@ -2649,7 +2653,7 @@ p {
     flex-direction: column;
   }
   .top__block__inner-content {
-    gap: 50px;
+    gap: 42px;
     position: relative;
   }
   .top__block .title {
@@ -2668,9 +2672,8 @@ p {
     left: 50px;
   }
   .top__block__inner-image {
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
+    width: 229px;
+    height: 387px;
   }
   .team__block .feedback .feedback__title {
     text-align: center;
@@ -2728,29 +2731,33 @@ p {
 @media (max-width: 767px) {
   .top__block__inner-content .text p {
     font-size: 14px;
-    width: 100%;
+    width: 281px;
+    text-align: left;
+    margin-left: 0;
   }
   .top__block .title {
-    font-size: 23px;
-    line-height: 113%;
+    text-align: left;
+    font-size: 28px;
+    line-height: 110%;
+    width: 317px;
   }
   .consultation__button a .button-text {
-    font-size: 8px;
+    font-size: 14px;
   }
   .consultation__button a {
-    padding: 4px 12px;
-    gap: 5px;
+    gap: 12px;
   }
   .top__block__inner-content .button__wrapper {
     gap: 5px;
     align-items: center;
-    top: 257px;
+    top: 656px;
     left: 5px;
   }
   .top__block__inner-content .button__wrapper .text-next-to-btn {
-    max-width: 150px;
-    color: #000;
-    font-size: 9px;
+    display: none;
+  }
+  .top__block__inner .old-price {
+    display: none;
   }
   .grid-item h2 {
     font-size: 22px;
@@ -2873,7 +2880,7 @@ p {
     padding: 12px 20px;
   }
   .white-background.bottom-radius {
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 24px 24px;
   }
   .articel-page .posts-block h2 {
     font-size: 33px;
@@ -2900,8 +2907,7 @@ p {
     font-size: 10px;
   }
   .consultation__button a {
-    padding: 12px 22px;
-    gap: 8px;
+    padding: 14px 37px;
   }
   .for-car-wrapper .post-grid .post .text span {
     font-size: 14px;
@@ -3035,9 +3041,6 @@ p {
   }
   .situation .situation-title__block .text {
     font-size: 15px;
-  }
-  .situation .situation-title__block .line {
-    display: none;
   }
   .lawyer__block .lawyer__block-title .navigation-buttons {
     right: 3%;
@@ -3699,5 +3702,16 @@ p {
     right: 3%;
     top: 0;
     width: 137px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation-buttons {
+    display: none;
+  }
+  .top-img-mob {
+    display: block;
+  }
+  .top-img-deskt {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
