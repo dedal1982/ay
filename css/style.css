@@ -3777,4 +3777,11 @@ p {
     left: 5px;
     top: 590px !important;
   }
+  .button__wrapper .button__wrapper-main {
+    top: 635px !important;
+    gap: 5px;
+    align-items: center;
+    top: 656px;
+    left: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
